@@ -1,1 +1,1 @@
-My first readme
+It is about printing current working directory
