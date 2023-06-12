@@ -1,2 +1,4 @@
 #!/bin/bash
-mkdir /tmp/my_first_directory && echo "Directory created successfully." || echo "Failed to create the directory."
+mkdir /tmp/my_first_directory
+if [ $? -eq 0 ]; then echo "Directory created successfully."; else echo "Failed to create the directory."; fi
+
