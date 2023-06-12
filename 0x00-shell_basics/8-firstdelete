@@ -1,0 +1,2 @@
+#!/bin/bash
+rm /tmp/my_first_directory/betty if [ $? -eq 0 ] then echo "File deleted successfully." else echo "Failed to delete the file." fi
