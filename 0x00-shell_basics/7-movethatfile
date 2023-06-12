@@ -1,0 +1,2 @@
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory if [ $? -eq 0 ]; then echo "File moved successfully."; else echo "Failed to move the file."; fi
