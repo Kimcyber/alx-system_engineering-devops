@@ -1,2 +1,2 @@
 #!/bin/bash
-4-global_variables
+env | awk -F= '{print $1": "$2}'
